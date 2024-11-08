@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        let width=window.prompt("Podaj szerokosc obiektu");
+        let height=window.prompt("Podaj wysokosc obiektu");
+        let length=window.prompt("Podaj dlugosc obiektu");
+        let size=0;
+
+            if (height >= 1 && width >= 1 && length >= 1) {
+                size = height * width * length;
+                document.write("Obiętość pudełka to " + size);
+            } else {
+                document.write("Przynajmniej jedna z wartosci nie jest prawidlowa!!");
+            }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
